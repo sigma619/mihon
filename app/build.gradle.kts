@@ -56,7 +56,7 @@ android {
     buildTypes {
         named("debug") {
             versionNameSuffix = "-${getCommitCount()}"
-            applicationIdSuffix = ".debug"
+            applicationIdSuffix = ".colorise"
             isPseudoLocalesEnabled = true
         }
         named("release") {
